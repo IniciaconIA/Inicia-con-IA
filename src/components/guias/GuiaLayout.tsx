@@ -1,5 +1,3 @@
-import VideoSkool from "./VideoSkool";
-
 interface GuiaLayoutProps {
   children: React.ReactNode;
   frontmatter: {
@@ -63,12 +61,7 @@ export default function GuiaLayout({ children, frontmatter }: GuiaLayoutProps) {
       </header>
 
       {/* Contenido de la guía */}
-      <main>
-        {/* Video CTA a Skool - 60px de separación del header */}
-        <div className="mx-auto w-full max-w-[900px] px-5 pt-[60px] sm:px-8 lg:px-10">
-          <VideoSkool thumbnail={frontmatter.thumbnail} />
-        </div>
-
+      <main className="pt-12">
         {/* Article content */}
         <article className="guia-content">
           {children}
