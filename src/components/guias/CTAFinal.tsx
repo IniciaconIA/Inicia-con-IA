@@ -12,7 +12,7 @@ interface CTAFinalProps {
 export function CTAFinal({
   titulo = "Domina la IA con nuestra comunidad",
   comunidadUrl = "#",
-  badges = ["100% Gratuito", "Comunidad activa"],
+  badges = ["Comunidad activa", "Contenido práctico"],
 }: CTAFinalProps) {
   return (
     <section className="w-full bg-[#0F172A] py-12 md:py-16">
@@ -32,7 +32,7 @@ export function CTAFinal({
             boxShadow: "0 10px 40px rgba(59, 130, 246, 0.35)",
           }}
         >
-          Únete Gratis a la Comunidad →
+          Únete al equipo →
         </a>
 
         {/* Badges */}

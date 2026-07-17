@@ -74,7 +74,7 @@ export default function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button href={SKOOL_URL} variant="cta" size="sm" target="_blank">
-              Únete Gratis
+              Únete al equipo
             </Button>
           </div>
 
@@ -136,7 +136,7 @@ export default function Navbar() {
                 ))}
                 <div className="pt-4 px-4">
                   <Button href={SKOOL_URL} variant="cta" size="md" target="_blank" className="w-full justify-center">
-                    Únete Gratis
+                    Únete al equipo
                   </Button>
                 </div>
               </div>

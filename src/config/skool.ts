@@ -1,6 +1,7 @@
-export const SKOOL_URL = "https://www.skool.com/inicia-con-ia-5095";
+// Destino de los CTAs de la comunidad. Repuntado a iniciateams.com.
+export const SKOOL_URL = "https://iniciateams.com";
 
 export const SKOOL_CTA_TEXT = {
-  primary: "Empieza Gratis",
-  secondary: "Unirme a Skool",
+  primary: "Únete al equipo",
+  secondary: "Únete al equipo",
 };

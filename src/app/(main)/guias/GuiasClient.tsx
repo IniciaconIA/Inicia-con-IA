@@ -70,7 +70,7 @@ export default function GuiasClient({ guides }: { guides: Guide[] }) {
             >
               <span className="text-[#FAFAFA]">Guías </span>
               <span className="bg-gradient-to-r from-[#3B82F6] to-[#60A5FA] bg-clip-text text-transparent">
-                Gratuitas
+                de IA
               </span>
             </motion.h1>
 
@@ -288,7 +288,7 @@ export default function GuiasClient({ guides }: { guides: Guide[] }) {
             </h2>
 
             <p className="text-lg text-white mb-10 max-w-xl mx-auto">
-              Únete gratis a nuestra comunidad y obtén acceso exclusivo a guías,
+              Únete a nuestra comunidad y obtén acceso exclusivo a guías,
               cursos y soporte directo
             </p>
 
@@ -331,12 +331,6 @@ export default function GuiasClient({ guides }: { guides: Guide[] }) {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="mt-12 flex flex-wrap items-center justify-center gap-8 text-sm text-[#A1A1AA]"
             >
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-[#3B82F6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                100% Gratuito
-              </div>
               <div className="flex items-center gap-2">
                 <svg className="w-5 h-5 text-[#3B82F6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />

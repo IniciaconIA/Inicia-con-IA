@@ -84,7 +84,7 @@ export default function PoliticaDePrivacidad() {
               <p className="text-[#FAFAFA] font-medium mb-3">No vendemos tu información personal.</p>
               <p className="text-[#A1A1AA] mb-2">Solo compartimos datos con:</p>
               <ul className="text-[#A1A1AA] space-y-1 list-disc list-inside">
-                <li>Plataformas de servicio: Skool (comunidad), Vercel (hosting), proveedores de pago</li>
+                <li>Plataformas de servicio: iniciateams (comunidad), Vercel (hosting), proveedores de pago</li>
                 <li>Cuando sea requerido por ley: en caso de obligaciones legales</li>
               </ul>
             </div>

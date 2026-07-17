@@ -27,10 +27,6 @@ const faqs = [
     answer: "No, el contenido está diseñado para personas sin conocimientos técnicos previos.",
   },
   {
-    question: "¿El contenido es gratuito?",
-    answer: "Sí, todo el contenido del curso, las guías y los artículos son completamente gratuitos.",
-  },
-  {
     question: "¿Cuánto tiempo necesito?",
     answer: "Puedes ir a tu propio ritmo. Cada lección dura entre 15-30 minutos.",
   },

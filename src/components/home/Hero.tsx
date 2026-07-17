@@ -35,36 +35,6 @@ function useCountUp(end: number, duration: number = 1.5, shouldStart: boolean = 
   return count;
 }
 
-// Componente de estrellas animadas
-function AnimatedStars({ shouldAnimate }: { shouldAnimate: boolean }) {
-  const stars = [0, 1, 2, 3, 4];
-  const totalDuration = 1.5; // misma duración que los contadores
-  const staggerDelay = totalDuration / 5; // distribuir uniformemente
-
-  return (
-    <div className="flex gap-0.5 text-2xl md:text-3xl mb-1">
-      {stars.map((index) => (
-        <motion.span
-          key={index}
-          initial={{ opacity: 0.2, scale: 0.5, color: "#52525B" }}
-          animate={
-            shouldAnimate
-              ? { opacity: 1, scale: 1, color: "#FACC15" }
-              : { opacity: 0.2, scale: 0.5, color: "#52525B" }
-          }
-          transition={{
-            duration: 0.3,
-            delay: shouldAnimate ? index * staggerDelay : 0,
-            ease: "easeOut",
-          }}
-        >
-          ★
-        </motion.span>
-      ))}
-    </div>
-  );
-}
-
 // Componente de contador animado
 function AnimatedCounter({
   value,
@@ -211,24 +181,10 @@ export default function Hero() {
               transition={{ duration: 0.5 }}
               className="flex flex-wrap justify-center gap-6 md:gap-10 mt-8 text-center"
             >
-              {/* Star Rating */}
-              <div className="flex flex-col items-center">
-                <AnimatedStars shouldAnimate={isStatsInView} />
-                <p className="text-sm text-[#71717A]">5.0 Rating</p>
-              </div>
-              <div className="w-px bg-[#27272A] hidden md:block" />
-
               {/* Lessons */}
               <div>
                 <AnimatedCounter value={50} suffix="+" shouldStart={isStatsInView} />
                 <p className="text-sm text-[#71717A]">Lecciones</p>
-              </div>
-              <div className="w-px bg-[#27272A] hidden md:block" />
-
-              {/* Free */}
-              <div>
-                <AnimatedCounter value={100} suffix="%" shouldStart={isStatsInView} />
-                <p className="text-sm text-[#71717A]">Gratis</p>
               </div>
               <div className="w-px bg-[#27272A] hidden md:block" />
 

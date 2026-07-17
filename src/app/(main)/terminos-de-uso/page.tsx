@@ -21,7 +21,7 @@ export default function TerminosDeUso() {
 
         {/* Intro */}
         <p className="text-[#A1A1AA] leading-relaxed mb-12">
-          Bienvenido a Inicia con IA. Al acceder y utilizar nuestro sitio web (iniciaconia.com), comunidad en Skool y materiales educativos, aceptas estos términos de uso.
+          Bienvenido a Inicia con IA. Al acceder y utilizar nuestro sitio web (iniciaconia.com), nuestra comunidad en iniciateams.com y materiales educativos, aceptas estos términos de uso.
         </p>
 
         {/* Sections */}
@@ -36,8 +36,8 @@ export default function TerminosDeUso() {
               <p className="text-[#A1A1AA] mb-2">Inicia con IA es una plataforma educativa que ofrece:</p>
               <ul className="text-[#A1A1AA] space-y-1 list-disc list-inside">
                 <li>Cursos y capacitaciones sobre herramientas de Inteligencia Artificial</li>
-                <li>Guías descargables gratuitas</li>
-                <li>Acceso a comunidad en Skool</li>
+                <li>Guías descargables</li>
+                <li>Acceso a nuestra comunidad</li>
                 <li>Contenido actualizado sobre nuevas herramientas de IA</li>
               </ul>
             </div>
@@ -117,10 +117,10 @@ export default function TerminosDeUso() {
             </h2>
             <div className="pl-11 space-y-4">
               <div>
-                <h3 className="text-[#FAFAFA] font-medium mb-2">Contenido gratuito:</h3>
+                <h3 className="text-[#FAFAFA] font-medium mb-2">Contenido educativo:</h3>
                 <ul className="text-[#A1A1AA] space-y-1 list-disc list-inside">
-                  <li>Las guías y recursos gratuitos están disponibles sin costo</li>
-                  <li>Requieren registro en nuestra comunidad de Skool</li>
+                  <li>Las guías y recursos educativos están disponibles según los términos de acceso vigentes</li>
+                  <li>Requieren registro en nuestra comunidad</li>
                 </ul>
               </div>
               <div>

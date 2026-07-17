@@ -157,7 +157,7 @@ export default function NosotrosPage() {
               creativas y eficientes en su trabajo diario.
             </p>
             <p className="text-base md:text-lg text-[#A1A1AA] leading-relaxed">
-              A través de contenido gratuito, guías prácticas y una comunidad activa,
+              A través de contenido práctico, guías paso a paso y una comunidad activa,
               ayudamos a miles de personas a dar sus primeros pasos con IA y transformar
               la manera en que trabajan.
             </p>
